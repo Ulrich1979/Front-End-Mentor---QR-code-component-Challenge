@@ -1,0 +1,67 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+#main {
+    background-color: #D6E1F0;
+}
+
+
+/* layout parts */
+#outer-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 20rem;
+}
+
+#inner-container {
+    padding: 1rem 0;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+#inner-text {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: contain;
+    border-radius: .67rem;
+}
+
+h1, p {
+    padding-top: 1rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+p {
+    color: #999;
+    padding-bottom: 2rem;
+}
+
+/* attribution of front-end-mentor */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
